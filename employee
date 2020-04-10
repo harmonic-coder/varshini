@@ -1,0 +1,42 @@
+package employee;
+
+public class employee 
+{
+    String address,name;
+    int yoj,sal;
+    void emp1()
+    {
+        name="Robert";
+        yoj=1994;
+        address="64C-WallsStreet";
+        System.out.println(name +"     "+yoj+"           "+address);
+    }
+    
+    void emp2()
+    {
+        name="Sam";
+        yoj=2000;
+        address="68D-WallsStreet";
+        System.out.println(name +"        "+yoj+"           "+address);
+    }
+    
+    void emp3()
+    {
+        name="John";
+        yoj=1999;
+        address="26B-WallsStreet";
+        System.out.println(name +"       "+yoj+"           "+address);
+    }
+    
+    
+    public static void main(String[] args) 
+    {
+        employee o=new employee();
+        System.out.println("Name     Year of Joining     Address");
+System.out.println();
+        o.emp1();
+        o.emp2();
+        o.emp3();
+    }
+    
+}
